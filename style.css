@@ -101,3 +101,36 @@ p { color: var(--text2); }
   .wiki-nav { width: 100%; height: auto; position: static; }
   .wiki-main { padding: 20px; }
 }
+
+/* Rarity colours, as in the game */
+.r-uncommon  { color: #5BBDAA; }
+.r-rare      { color: #4E9BE8; }
+.r-epic      { color: #B267E0; }
+.r-legendary { color: #E8A93E; }
+
+.wiki-sub { color: var(--text2); margin: 0 0 18px; font-size: 14px; }
+.wiki-jump { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 8px 0 20px; font-size: 14px; }
+.wiki-tag { display: inline-block; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--border2); font-size: 12px; color: var(--text2); white-space: nowrap; }
+.wiki-tag.melee  { border-color: #C94040; color: #E07070; }
+.wiki-tag.ranged { border-color: #5BBD6A; color: #7CD48A; }
+.wiki-tag.magic  { border-color: #8E5BBD; color: #B48AE0; }
+.wiki-heading-icon { display: inline-flex; align-items: center; gap: 10px; }
+.wiki-zone-card .icon-img { display: block; }
+.wiki-updated { font-size: 12px; color: var(--text3); margin-top: -24px; margin-bottom: 28px; }
+ol.wiki-list { padding-left: 24px; }
+.wiki-table td.num, .wiki-table th.num { text-align: right; white-space: nowrap; }
+.wiki-scroll { overflow-x: auto; }
+a.wiki-stat-card { display: block; transition: border-color .12s; }
+a.wiki-stat-card:hover { border-color: var(--accent); text-decoration: none; }
+.item-link { vertical-align: middle; }
+.item-qty { display: inline-flex; align-items: center; gap: 4px; vertical-align: middle; white-space: nowrap; }
+
+@media (max-width: 800px) {
+  .wiki-nav { gap: 10px; padding: 12px 16px; }
+  .wiki-logo { flex-direction: row; align-items: center; gap: 8px; }
+  .wiki-logo img { width: 150px; }
+  .wiki-nav nav { flex-direction: row; flex-wrap: wrap; gap: 2px 4px; }
+  .wiki-nav-link { padding: 4px 8px; font-size: 13px; }
+  .wiki-nav-footer { display: none; }
+  .wiki-main h1 { font-size: 24px; }
+}
