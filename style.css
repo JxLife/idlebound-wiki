@@ -66,6 +66,7 @@ p { color: var(--text2); }
 
 .wiki-hero-logo { display: block; width: 100%; max-width: 420px; height: auto; margin-bottom: 16px; }
 .wiki-hero p { max-width: 640px; font-size: 15px; }
+.wiki-hero .wiki-hero-version { margin-top: 6px; font-size: 13px; color: var(--text3); }
 
 .wiki-stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 12px; margin: 24px 0 36px; }
 .wiki-stat-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; padding: 16px; text-align: center; }
