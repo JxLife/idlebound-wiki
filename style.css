@@ -135,3 +135,12 @@ a.wiki-stat-card:hover { border-color: var(--accent); text-decoration: none; }
   .wiki-nav-footer { display: none; }
   .wiki-main h1 { font-size: 24px; }
 }
+
+/* Privacy Policy and Terms of Service */
+.wiki-legal-toc { background: var(--panel, rgba(255,255,255,0.03)); border: 1px solid var(--border); border-radius: 8px; padding: 12px 16px; margin: 0 0 8px; max-width: 760px; }
+.wiki-legal-toc ol { margin: 6px 0 0; padding-left: 20px; columns: 2; column-gap: 24px; }
+.wiki-legal-toc li { margin: 2px 0; }
+.wiki-main h2[id], .wiki-main h3 { scroll-margin-top: 16px; }
+.wiki-footer { display: flex; justify-content: center; gap: 8px; margin: 48px 0 8px; padding-top: 14px; border-top: 1px solid var(--border); }
+.wiki-footer-btn { font-size: 11px; color: var(--text3); border: 1px solid var(--border); border-radius: 999px; padding: 3px 10px; text-decoration: none; }
+.wiki-footer-btn:hover { color: var(--accent); border-color: var(--accent); }
